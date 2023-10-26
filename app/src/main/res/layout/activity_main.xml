@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/black">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="714dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="170dp"
+        android:layout_marginEnd="184dp"
+        android:fontFamily="@font/sf_regular"
+        android:text="@string/D"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/materialToolbar"
+        app:layout_constraintEnd_toEndOf="@+id/materialToolbar"
+        app:layout_constraintStart_toStartOf="@+id/materialToolbar"
+        app:layout_constraintTop_toTopOf="@+id/materialToolbar" />
+
+    <ImageButton
+        android:id="@+id/LOGOUT"
+        android:layout_width="52dp"
+        android:layout_height="53dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/LO"
+        android:src="@drawable/logout"
+        app:layout_constraintBottom_toBottomOf="@+id/materialToolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/materialToolbar"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sf_regular"
+        android:text="@string/DL"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materialToolbar"
+        app:layout_constraintVertical_bias="0.042" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sf_regular"
+        android:text="@string/SS"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <Switch
+        android:id="@+id/D1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/D1"
+        android:fontFamily="@font/sf_regular"
+        android:minHeight="48dp"
+        android:text="@string/D1"
+        android:paddingEnd="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.071"
+        tools:ignore="DuplicateSpeakableTextCheck,RtlSymmetry,UseSwitchCompatOrMaterialXml" />
+
+    <ImageView
+        android:id="@+id/Stat1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/off"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="@+id/D1"
+        android:contentDescription="@string/S1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/D1"
+        app:layout_constraintTop_toTopOf="@+id/D1" />
+
+    <Switch
+        android:id="@+id/D2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/D1"
+        android:fontFamily="@font/sf_regular"
+        android:minHeight="48dp"
+        android:text="@string/D2"
+        android:paddingEnd="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/D1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/D1"
+        app:layout_constraintTop_toBottomOf="@+id/D1"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="RtlSymmetry,UseSwitchCompatOrMaterialXml" />
+
+
+    <ImageView
+        android:id="@+id/Stat2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/S2"
+        app:layout_constraintBottom_toBottomOf="@+id/D2"
+        android:src="@drawable/off"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/D2"
+        app:layout_constraintTop_toTopOf="@+id/D2" />
+
+    <Switch
+        android:id="@+id/D3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/D1"
+        android:fontFamily="@font/sf_regular"
+        android:minHeight="48dp"
+        android:text="@string/D3"
+        android:textSize="20sp"
+        android:paddingEnd="10dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/D2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/D2"
+        app:layout_constraintTop_toBottomOf="@+id/D2"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="RtlSymmetry,UseSwitchCompatOrMaterialXml" />
+
+    <ImageView
+        android:id="@+id/Stat3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/S3"
+        app:layout_constraintBottom_toBottomOf="@+id/D3"
+        android:src="@drawable/off"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/D3"
+        app:layout_constraintTop_toTopOf="@+id/D3" />
+
+
+    <Switch
+        android:id="@+id/D4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/D1"
+        android:paddingEnd="10dp"
+        android:fontFamily="@font/sf_regular"
+        android:minHeight="48dp"
+        android:src="@drawable/off"
+        android:text="@string/D4"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/D3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/D3"
+        app:layout_constraintTop_toBottomOf="@+id/D3"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="RtlSymmetry,UseSwitchCompatOrMaterialXml" />
+
+    <ImageView
+        android:id="@+id/Stat4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="@+id/D4"
+        android:contentDescription="@string/S4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/D4"
+        android:src="@drawable/off"
+        app:layout_constraintTop_toTopOf="@+id/D4" />
+
+
+    <Switch
+        android:id="@+id/D5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/D1"
+        android:fontFamily="@font/sf_regular"
+        android:minHeight="48dp"
+        android:paddingEnd="10dp"
+        android:text="@string/D5"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/D4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/D4"
+        app:layout_constraintTop_toBottomOf="@+id/D4"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="RtlSymmetry,UseSwitchCompatOrMaterialXml" />
+
+    <ImageView
+        android:id="@+id/Stat5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="@+id/D5"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:contentDescription="@string/S5"
+        android:src="@drawable/off"
+        app:layout_constraintStart_toEndOf="@+id/D5"
+        app:layout_constraintTop_toTopOf="@+id/D5" />
+
+    <Switch
+        android:id="@+id/D6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/D1"
+        android:fontFamily="@font/sf_regular"
+        android:minHeight="48dp"
+        android:text="@string/D6"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/D5"
+        android:paddingEnd="10dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/D5"
+        app:layout_constraintTop_toBottomOf="@+id/D5"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="RtlSymmetry,UseSwitchCompatOrMaterialXml" />
+
+    <ImageView
+        android:id="@+id/Stat6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/S6"
+        app:layout_constraintBottom_toBottomOf="@+id/D6"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/off"
+        app:layout_constraintStart_toEndOf="@+id/D6"
+        app:layout_constraintTop_toTopOf="@+id/D6" />
+
+    <Switch
+        android:id="@+id/D7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/D1"
+        android:fontFamily="@font/sf_regular"
+        android:paddingEnd="10dp"
+        android:minHeight="48dp"
+        android:text="@string/D7"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/D6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/D6"
+        app:layout_constraintTop_toBottomOf="@+id/D6"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="RtlSymmetry,UseSwitchCompatOrMaterialXml" />
+
+    <ImageView
+        android:id="@+id/Stat7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="@+id/D7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/D7"
+        android:contentDescription="@string/S7"
+        android:src="@drawable/off"
+        app:layout_constraintTop_toTopOf="@+id/D7" />
+
+    <Switch
+        android:id="@+id/D8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/D1"
+        android:fontFamily="@font/sf_regular"
+        android:minHeight="48dp"
+        android:text="@string/D8"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingEnd="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/D7"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/D7"
+        app:layout_constraintTop_toBottomOf="@+id/D7"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="RtlSymmetry,UseSwitchCompatOrMaterialXml" />
+
+    <ImageView
+        android:id="@+id/Stat8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/S8"
+        app:layout_constraintBottom_toBottomOf="@+id/D8"
+        android:src="@drawable/off"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/D8"
+        app:layout_constraintTop_toTopOf="@+id/D8" />
+
+    <ImageButton
+        android:id="@+id/AllOFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/AO"
+        android:minHeight="50dp"
+        android:src="@drawable/logout"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.434"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/sf_regular"
+        android:text="@string/AO"
+        android:textSize="20sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/D8"
+        app:layout_constraintHorizontal_bias="0.172"
+        app:layout_constraintStart_toStartOf="@+id/D8"
+        app:layout_constraintTop_toBottomOf="@+id/D8"
+        app:layout_constraintVertical_bias="0.211" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

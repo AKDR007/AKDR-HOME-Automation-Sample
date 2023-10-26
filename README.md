@@ -1,1 +1,0 @@
-# AKDR-HOME-Automation-Sample

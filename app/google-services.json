@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "231831970402",
+    "firebase_url": "https://home-automation-testing-1d160-default-rtdb.firebaseio.com",
+    "project_id": "home-automation-testing-1d160",
+    "storage_bucket": "home-automation-testing-1d160.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231831970402:android:12dfea79a84d8e6c5de73b",
+        "android_client_info": {
+          "package_name": "com.akdr.homeautomationprototype"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiJjU-TjG1cF00H3zPJdnCP5o-DjsbTKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

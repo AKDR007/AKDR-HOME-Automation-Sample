@@ -1,0 +1,33 @@
+<resources>
+
+    <string name="app_name">HomeAutomationPrototype</string>
+    <string name="L">Login</string>
+    <string name="M">Mail ID</string>
+    <string name="P">Password</string>
+    <string name="AHA">Already have an Account?</string>
+    <string name="LO">Logout</string>
+    <string name="S">Signup</string>
+    <string name="SS">Status</string>
+    <string name="F">Forgot Password ?</string>
+    <string name="D">Devices &amp; Status</string>
+    <string name="DL">Devices List: </string>
+    <string name="D1">Device 1</string>
+    <string name="D2">Device 2</string>
+    <string name="D3">Device 3</string>
+    <string name="D4">Device 4</string>
+    <string name="D5">Device 5</string>
+    <string name="D6">Device 6</string>
+    <string name="D7">Device 7</string>
+    <string name="D8">Device 8</string>
+    
+    <string name="S1">Status 1</string>
+    <string name="S2">Status 2</string>
+    <string name="S3">Status 3</string>
+    <string name="S4">Status 4</string>
+    <string name="S5">Status 5</string>
+    <string name="S6">Status 6</string>
+    <string name="S7">Status 7</string>
+    <string name="S8">Status 8</string>
+
+    <string name="AO">Turn Off ALL Devices  \t-->  </string>
+</resources>
